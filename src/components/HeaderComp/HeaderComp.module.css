@@ -1,0 +1,31 @@
+.header_comp {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding: 5px;
+    width: 100%;
+    background-color:powderblue;
+    color: mediumblue;
+    box-shadow: 0 4px skyblue;
+    font-size: 20px;
+    min-height: 15%;
+  }
+  
+.header_comp div {  padding: 0 0;}
+
+.div_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.fs26 {  
+  font-size: 26px;
+}
+
+.fs16_ml50_mb3 {
+  font-size: 16px;
+  margin-left: 50px;
+  margin-bottom: 3px;
+}

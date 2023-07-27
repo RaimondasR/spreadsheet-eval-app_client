@@ -1,0 +1,88 @@
+.comp {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    /* min-height: 700px; */
+  }
+  
+  .div_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px lightseagreen;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    min-height:815px;
+  }
+  
+  .page_name_div {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: dodgerblue
+  }
+  
+  /* .div1 {
+    display: flex;
+    width: 50%;
+    height: 30px;
+    align-items: center;
+    font-size: 18px;
+    color: gray;
+  } */
+  
+  .div2 {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  
+  .div3 {
+    color: gray;
+    display: flex;
+    align-items: center;
+    /* margin-right: 5px; */
+  }
+  
+  .btn_div {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  button {
+    width: 100%;
+    /* background-color: rgb(89, 210, 231); */
+    background-color: lightskyblue;
+    color: navy;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 7px 0;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    box-shadow: 3px 3px deepskyblue;
+  }
+    
+  button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .msg_div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 30px;
+    margin-top: 15px;
+  }
